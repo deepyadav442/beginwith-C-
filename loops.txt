@@ -1,0 +1,97 @@
+System executes one statement once,
+if the need is of repeatative execution 
+of some set of statements then 
+those must be enclosed in a loop.
+
+Loop
+-----
+A loop is a mechanism used to 
+repeat the execution of a set 
+of statements, multiple times.
+
+A loop is always governed by a
+condition.
+
+System repeats the set of statements 
+inside a loop, as long as the governing
+condition remains true.
+
+Types of Loop
+--------------
+C supports 3 types of loop
+1) while
+2) for
+3) do while
+
+All are used for repeatation of
+program statements.
+
+But they have an essential differnce.
+
+* "for" and "while" loop will execute
+the set of statements ZERO to
+MANY times.
+
+* "do while" loop will execute
+the set of statements ONE to
+MANY times.
+
+Loop Related Terms
+--------------------
+Initialization : The start value
+assigned to a loop controlling
+variable.
+
+Condition : The stop value for 
+the loop controlling variable.
+
+Reinitialization : Is the change in 
+value of the loop controlling
+variable.
+
+Cycle/Iteration : Is one execution
+of statements in loop body.
+
+Syntax while loop
+-------------------
+initialization
+while(condition)
+{
+  statements to repeat
+  reinitialization
+}
+
+syntax for loop
+----------------
+     1)             2) 5) 8)   4) 7)
+for(initialization; condition; reinitialization)
+{//on true
+  3) 6)
+  statements to repeat
+}
+on false 9)
+
+Syntax do-while loop
+-------------------
+
+initialization 1)
+
+do
+{ 2) on true 5) 8)
+  statements to repeat
+  reinitialization 3) 6) 9)
+}while(condition); 4) 7) 10)
+on false 11) 
+
+
+To Design A Loop 
+----------------
+1) Analyze the statements to be
+repeated.
+2) Analyze the repeatation count.
+Hence analyze :
+  * start value
+  * stop value
+  * change in value
+3) Select a loop (for/while/do while)
+4) Write the code

@@ -1,0 +1,40 @@
+printf
+-------
+printf is a predefined function that
+is packaged in header file : "stdio.h"
+
+It utilizes the standard output stream
+(stdout) to transmit program data from
+CPU to Monitor.
+
+printf can transmit 3 types of data:
+
+1) Data enclosed in double quotes (constant strings)
+(see printf1.c)
+
+2) Special Characters
+   \n : start a new line
+   \t : shift the cursor right by 1 tab position
+   \b : shift the cursor left by 1 position
+   \r : shift the cursor left to the beginning of line
+   \a : play a beep sound
+   \\ : print a \
+   \" : print "
+   \' : print '
+   %% : print %
+(see printf2.c)
+
+3) Data stored in variables
+...
+(see printf3.c)
+    
+------------------------
+why the name printf?
+Of the term : printf
+print signifies the operation.
+f signifies that the function
+will require format characters
+for outputting data stored
+in variables/arrays/...
+
+

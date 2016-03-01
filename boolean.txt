@@ -1,0 +1,12 @@
+boolean
+--------
+C has no dedicated datatype 
+to represent boolean.
+
+The datatype "int" works as boolean also.
+
+int value ZERO represents boolean
+value FALSE.
+
+All NON-ZERO int values represent
+boolean value TRUE.

@@ -1,0 +1,86 @@
+By default system executes every
+program statement.
+
+But for a case we may desire that
+system executes one set of statements
+and skips another set of statements.
+
+In such a case the two sets must 
+be conditionally branched.
+
+C supports conditional branching of
+program code in 2 ways.
+1) if statement 
+2) switch statement
+
+Study of if statement
+---------------------
+"if" statement is used for conditional
+branching of program code.
+It allows execution/skip of sets
+of code.
+
+"if" has a condition and a block of
+code associated with it.
+Optionally "if" can be followed by
+"else if" or "else" or both. 
+
+As system encounters "if" statement
+then it evaluates the condition
+associated with it and results in
+a boolean value.
+
+Only when the boolean value is 
+true then the block of code 
+associated with "if" executes.
+
+(Considering "else if" is not defined)
+When the boolean value is false
+then the code associated with
+else will execute.
+
+Study of "else if" statement
+-------------------------
+"else if" statement is used
+for conditional branching of
+program code.
+
+"else if" statement must have
+a preceeding "if" or "else if"
+statement.
+
+"else if" is associated with the
+FALSE state of a preceeding
+"if" or "else if".
+=============================
+switch statement
+
+switch selection statement is used
+for conditional branching of program
+code.
+
+It allows comparison of an int or
+a char value with constants of
+corresponding type.
+
+Comparison is for equality in values.
+
+switch demands declaration of
+cases, each of which represents
+a unique constant value.
+
+Code of the case, value of which 
+matches (equals) the value of 
+switched variable will execute, 
+others will be skipped.
+
+If no case matches (equals) the
+value of the switched variable,
+then the default case (if defined)
+will execute. 
+
+Any case can be defined in any order.
+
+Code of a case block must end with
+a "break" statement to avoid auto-
+execution of next case.

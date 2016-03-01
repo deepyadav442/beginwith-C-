@@ -1,0 +1,67 @@
+Array
+------
+An array is a collection of variables
+of same datatype.
+It is used to represent homogenous
+set of information.
+
+Memory Allocation
+-----------------
+A continuous block of memory is
+allocated for the array.
+It is splitted into identical units
+called as "array elements".
+
+Array Access
+-------------
+The array has a unique name for 
+accessibility.
+The array elements are auto applied
+a zero based sequential and ascending 
+index.
+
+To access an array means to read
+or write its elements.
+This is done by a combination of
+   "arrayName[elementIndex]"
+
+Array Access Tip 
+It is recommended to access the
+array elements within the boundaries.
+
+Declaration
+-----------
+To declare an array :
+
+Syntax :
+ datatype arrayName[arraySize];
+
+Example :
+ int arr1[5];
+ float arr2[3];
+
+Rules : 
+ datatype : can be any primary / secondary type other than void.
+ arrayName : any valid name as for variables.
+ arraySize : 
+  * must be a whole number  
+     float arr[3.1]; is illegal
+  * must be a constant value
+     int x = 5; 
+     int arr[x]; is illegal
+  * must be min 1 in size
+     int arr[-3]; is illegal
+    Certain systems allow array
+    to be size 0, but such an array
+    will be "unusable", so minimum
+    size of array for it to be usable
+    is one.
+    Maximum size of array is system dependent. 
+
+Tip
+-----
+   To read/write/process an array
+   means to read/write/process its
+   elements.
+
+   Use loops to work on arrays.

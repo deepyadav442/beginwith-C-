@@ -1,0 +1,58 @@
+Study of unit increment operator : ++
+---------------------------------
+++ is a unary operator.
+++ increments the value of its operand
+(variable) by one.
+
+
+Example1:
+----------
+a is 10
+a++
+a becomes 11
+
+System supports application of ++ in
+two forms 
+* Prefix  : ++a
+* Postfix : a++
+
+In both the forms the operator has
+the same affect.
+i.e. will increment the operand by one.
+
+Example2:
+----------
+a is 10
+++a
+a becomes 11
+
+
+What is the difference between prefix
+and postfix usage of ++?
+
+Known that ++ can be used in prefix
+and postfix form.
+And both the applications increment
+the operand by one.
+But they differ in their priority.
+
+Prefix usage of ++ is highest in priority.
+Postfix usage of ++ is least in priority.
+
+Example1:
+-----------
+int a, b;
+a = 10;
+b = a++ * 5; //a*5, result in b , a unit increment
+result :
+a : 11
+b : 50
+
+Example2:
+-----------
+int a, b;
+a = 10;
+b = ++a * 5; //a unit increment, a*5, result in b
+result :
+a : 11
+b : 55

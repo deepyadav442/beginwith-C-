@@ -1,0 +1,46 @@
+Stream
+--------
+A stream is a software entity that
+allows transfer of information.
+
+Classification
+------------
+A stream may be 
+* Unidirectional
+* Bidirectional
+
+A unidirectional stream allows one
+way data transfer and may be an
+input stream or an output stream.
+
+A bidirectional stream allows two 
+way data transfer and will be an
+input-output stream.
+
+Operations
+----------
+A stream must be
+* Opened
+* Read/Written
+* Closed.
+
+3 Special Streams
+-----------------
+OS opens and manages 3 special
+streams:
+* Standard Input Stream : Channel of data transfer between Keyboard and CPU
+(Refered as "stdin" in C)
+
+* Standard Output Stream : Channel of data transfer between CPU and Monitor
+(Refered as "stdout" in C)
+
+* Standard Error Stream : Channel of data transfer between CPU and Monitor
+(Refered as "stderr" in C)
+
+OS makes these streams available to
+the active application.
+An application must utilize the streams.
+
+An active C application uses predefined
+functions like "scanf", "printf", ... 
+to utilize "stdin" and "stdout" streams.

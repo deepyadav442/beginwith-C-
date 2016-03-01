@@ -1,0 +1,29 @@
+Combining Conditions
+-------------------
+C supports combination of multiple
+conditions and formation of a single
+boolean result by use of operators
+ * Logical And : &&
+ * Logical Or : ||
+
+When multiple conditions are encountered
+then 
+1) System evaluates all (or may have a short circuit)
+2) Clubs the conditions in order
+   * Logical And First
+   * Logical Or Next
+3) Forms one result of clubbing the 
+conditions based on following TRUTH 
+TABLES. 
+
+TRUTH TABLE For Logical AND
+	T && T = T
+	T && F = F
+	F && T = F
+	F && F = F
+
+TRUTH TABLE For Logical OR
+	T || T = T
+	T || F = T
+	F || T = T
+	F || F = F

@@ -1,0 +1,83 @@
+IT
+=====================================================================
+1. Represent sets using one dimensional arrays and implement functions to perform
+i) union ii) intersection, iii) difference, iv) symmetric difference of two sets.
+2. Represent matrix using two dimensional arrays and perform following operations:
+i) Addition using pointers ii) multiplication without pointers iii) transpose using pointers
+3. Implement following operations on string with and without using pointers
+i) Length ii) Palindrome iii) String comparison iv) Copy v) Reverse vi) Substring
+4. Create a Database using array of structures and perform following operations on it:
+i) Create Database ii) Display Database iii) Add record iv) Search a record v) Modify a records. vi) Delete a record.
+5. 
+ a) Sort the set of strings in ascending order using Bubble sort and descending order by using Selection sort. 
+ b) Search for particular string using binary search.
+6. 
+ a) Write C program to implement TYPE and COPY commands of DOS using command line arguments.
+ b) Find out number of characters, words, spaces and sentences form a file and write result in another file.
+7. Implement Quick Sort recursively to sort the given list of numbers/records. Display pivot position and its corresponding list in each pass.
+8. Represent sparse matrix using two dimensional array or structure and perform simple and fast transpose
+9. Implement a singly linked list with following options
+ i) Insertion of a node at any location 
+ ii) Deletion of a node from any location 
+ iii) display a list
+ iv) Display in reverse 
+ v) Reverse the list without using additional data structure.
+10. Implement polynomial using CLL and perform 
+ i) Addition of Polynomials 
+ ii) Multiplication of polynomials
+ iii) Evaluation of polynomial.
+11. Implement any database using doubly linked list with following options
+ i) Insert a record 
+ ii) delete a record 
+ iii) modify a record 
+ iii) Display list forward
+ iv) Display list backward
+
+ENTC
+=============================================================================
+1. Searching methods-Linear & Binary
+2. Sorting Methods-Bubble, Selection & Insertion.
+3. Data base Management using array of structure with operations Create, display, Modify,
+Append, Search and sort.
+4. Polynomial addition using array of structure.
+5. Singly linked list with operations Create, Insert, Delete, Search.
+6. Stack using arrays & Linked Lists.
+7. Queue using array & Linked Lists.
+8. Evaluation of postfix expression (input will be postfix expression)
+9. Binary search tree: Create, search, recursive traversals.
+10. Graph using adjacency Matrix with BFS & DFS traversals.
+
+Computer
+=============================================================================
+Group A (Mandatory)
+1. A Vegetable and Fruit Mall wants to organize its vegetables and fruit products in a combination of purchase
+pattern of customers. Solve the problem by suggesting appropriate data structures. Design necessary class.
+2. A Dictionary stores keywords & its meanings. Provide facility for adding new keywords, deleting keywords,
+& updating values of any entry. Also provide facility to display whole data sorted in ascending/ Descending
+order, Also find how many maximum comparisons may require for finding any keyword. Make use of
+appropriate data structures.
+3. A news paper delivery boy every day drops news paper in a society having many lanes & each lane have
+many houses. Design a program to provide different paths that he could follow & also suggest the path which
+will make him to finish his task with less effort. Solve the problem by suggesting appropriate data structures.
+Design necessary class.
+4. Extending to problem 2. Consider dictionary data is stored in a file in random order. Thus, to search any
+the word & its meanings from given data, program should create reasonably balanced tree.
+
+Group B (Atleast Six)
+1. Write a program using object oriented programming features to implement Doubly circular linked list with
+different manipulation facilities in C++.
+4. Write a program using object oriented programming using C++ to create a binary tree if inorder& preorder or
+inorder & postorder any two traversals are given.
+5. Write a C++ program to implement traversals on Threaded Binary Tree using object oriented programming
+features. Design necessary class.
+6. Write a Java program to implement topological sorting on graph using object oriented programming features
+Design necessary class.
+7. Write a program to find shortest path for given source & destination of a given graph using C.
+11 Tic-Tac-Toe gaming application using C++ Programming
+12 Binary tree traversals BFS & DFS using Python classes
+14 Write a program in Python – to implement following operations on text file :- create , Read,
+calculate the frequency of each vowel, Count the words, characters, lines, white space & special
+characters, Write all the results into another text file
+
+Group C: Advanced Data Structure Assignments (At least One)
+1. Write bubble Sort program using Python programming

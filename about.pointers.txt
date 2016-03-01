@@ -1,0 +1,28 @@
+Access
+-------
+To access means to use.
+Say to access a variable means to
+use (read/write) it.
+And a variable is accessible (usable)
+* By name.
+* By memory location.
+
+Accessing a variable by its name is
+the common practice.
+And it supports read/write operations
+on the variable.
+
+Accessing a variable by its memory
+location requires following :
+1) Fetch the address of the variable.
+2) Store it in a pointer.
+3) Dereference the pointer to read/write the variable.
+
+
+Pointers
+--------
+A pointer is a variable that can 
+* store memory location (address) 
+* be derefenced to access that location.
+
+... to be continued

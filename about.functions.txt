@@ -1,0 +1,168 @@
+Preface
+---------
+An application performs a task.
+It is a collection of sub tasks.
+
+Examples of Applications: 
+ Calculator, Convertor, Game, ...
+Examples of their sub tasks :
+ Calculator : addition, multiplication, ...
+ Convertor : distance conv, weight conv, ...
+ Game : level1, level2, ...
+
+An application is represented by 
+a program.
+Its sub tasks are represented by
+functions.
+
+Definition
+----------
+A function is a module of a program
+that implements a subtask of an 
+application.
+
+Design
+-------
+A function is made up of 2 parts
+* Signature
+* Body
+
+Signature of the function specifies
+* Return type
+* Function name
+* Parameters
+
+Body of the function contains code
+and data that implements the logic
+of the sub-task.
+
+Execution
+---------
+Execution of a program is in background 
+execution of its functions.
+
+System auto-invokes a special
+function named as "main" from
+where other functions will be
+explicitly invoked.
+
+As a function is called (invoked)
+program control transfers from
+the place of call to the definition
+of function.
+Next the body of the function
+executes.
+On completion, program control
+returns to the statement next to 
+function call.
+An so on, on completion of main
+function program control returns
+to the system.
+
+Parameters
+------------
+Variables/Arrays declared in a function 
+are local to that function and
+cannot be directly accessed in
+other functions.
+
+If variables/arrays of a function are
+to be accessed in other functions
+then the same must be passed
+as parameters.
+
+The parameters that are passed
+must be received by the called
+function.
+
+Definition
+-----------
+Parameters are values passed
+along with the function call.
+
+Parameters are of 2 type
+* Actual Parameter
+* Formal Parameter
+
+Actual parameter is the value
+passed while invoking a function.
+
+Formal parameter is a variable
+or a pointer which receives the
+content of actual parameter.
+
+Pass By Value
+-------------
+When a function receives the
+formal parameter as a copy of
+the actual parameter then the
+parameters are said to be passed
+by value.
+
+In such a case formal parameter
+reflects the same data as of the
+actual parameter but if it is modified
+then the updation doesnt affect
+the actual parameter.
+
+Pass By Reference
+-------------------
+In such as the formal parameter
+is a reference to the actual parameter.
+i.e. It is not a copy of the actual
+parameter but it refers to the
+same memory as of actual parameter.
+
+To pass an array as an actual parameter
+ syntax :  fn(arrayName);
+
+To pass an array as a formal parameter
+ syntax :  void fn(int a[])
+
+
+Rules for parameters
+--------------------
+The actual and formal parameters
+must match in
+* Datatype
+* Count
+* Sequence
+=========================================
+return
+-------
+return statement is used in
+functions to :
+* Terminate them.
+* Make program control go back
+at the place of call.
+* Optionally transmit one value
+along with the program control.
+
+It is optional for the caller function
+to receive the returned value.
+But if no value is returned then
+the caller must not attempt reception.
+
+When a function doesnt return
+any value then it is declared as
+"void".
+
+
+void
+-----
+void is a special data type
+which can be used
+* As a return type
+* As a pointer type
+
+Its variables/arrays cannot be
+created.
+
+When used as a return type
+void indicates that the function
+will not return any value.
+
+When used as a pointer type
+void indicates that the pointer
+can store address of any
+variable/array/...

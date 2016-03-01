@@ -1,0 +1,9 @@
+Steps to write a C program
+
+1) Include required header files
+2) Define a userdefined function 
+named as "main".
+3) Define more functions if required.
+4) Per function write appropriate 
+instructions and function calls.
+

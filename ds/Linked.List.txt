@@ -1,0 +1,33 @@
+Data Structures is
+* Defining custom data types and their operations.
+* Memory Management (Allocation, Use, Deallocation)
+* Applying algorithms to solve problems.
+=======================================
+Linked List
+-----------
+A linked list is a linear data structure
+formed by a collection of homogenous
+units called as nodes.
+
+A node is a secondary datatype
+formed by combining DATA and 
+LINK to next node.
+
+What is a linear data structure?
+A linear data structure is the one
+that arranges its elements sequentially.
+
+Being linear and a collection of
+homogemous units a linked list
+resembles an array.
+
+Advantages of linked list over array
+--------------------------------
+* Dyanmic expansion and shrink support
+* Customized life
+
+Advantages of array over linked list
+--------------------------------
+* Easy creation
+* Supports direct access of any element.
+* Uses less memory for storing same number of values.

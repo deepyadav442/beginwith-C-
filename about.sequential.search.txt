@@ -1,0 +1,22 @@
+Sequential search is comparison 
+of a target value against elements
+of a sequential data structure 
+like array/linked list.
+
+It begins comparison of target value
+with the first element of array or
+linked list.
+
+It compares all the elements 
+sequentially (one after the other)
+and tries to find an equivalent.
+
+It stops :
+* On match found 
+* Entire array/linked list gets compared.
+
+If a match is found it returns
+the index of matching element.
+But if match is not found it returns
+-1 or NULL (a flag value indicating
+not found).

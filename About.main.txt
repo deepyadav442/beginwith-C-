@@ -1,0 +1,16 @@
+About main()
+------------
+
+main() is a user defined function
+that every executable C program
+must have.
+
+OS starts execution of a C program
+with main().
+It executes all the statements/calls
+written in main().
+As main() ends program ends and 
+program control returns to OS. 
+
+Hence said that main() defines life
+of a C program.
